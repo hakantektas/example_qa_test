@@ -39,7 +39,9 @@ public class searchTest  {
         //coppy screenshot file into screenshot folder.
         FileUtils.copyFile(f, new File(folder_name + "/" + file_name));
     }
-    @Test
+
+
+    @Test(priority = 0, description = "Title Correct Test")
     public void searchTest_1() throws InterruptedException, IOException {
 
 
